@@ -1,0 +1,118 @@
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[0] Sair do Programa
+[1] Uma vez
+[2] Mil vezes
+Quantas vezes você quer rodar os algoritmos de busca/ordenação? 1
+Avancei para a próxima página
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[0] Voltar para o menu
+[1] Criar novo vetor
+[2] Mostrar uma parte do vetor
+[3] Pesquisar um termo por Pesquisa Sequecial
+[4] Ordenar e pesquisar por Busca Binária
+[5] Rodar mecanismos de ordenação
+O que você deseja fazer? 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Estou criando um vetor novo
+Novo vetor criado com sucesso!
+Voltei para a tela de seleção
+O que você deseja fazer? 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Estou exibindo o início e o fim do vetor
+Início do vetor: 1661 1628 1719 1499 1127 
+Fim do vetor: 15 1038 12 1670 1414 
+Agora voltei para a tela de seleção
+O que você deseja fazer? 3
+- Digite um número negativo, para buscar aleatoriamente -
+Que número você deseja buscar no vetor? -1 
+Vou sortear um número
+Recebi o valor 1478 e vou pesquisar sequencialmente
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Obtive o resultado 127
+Achou o número 1478 na posição 127
+128 comparações foram feitas
+Voltei para a tela de seleção
+O que você deseja fazer? 4
+- Digite um número negativo, para buscar aleatoriamente -
+Que número você deseja buscar no vetor ordenado? 1478
+Recebi o valor 1478 e vou pesquisar por busca binária
+Ordenei por quick sort
+Obtive o resultado 740 na busca
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Achou o número 1478 na posição 740
+8 comparações foram feitas
+Voltei para a tela de seleção
+O que você deseja fazer? 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Estou exibindo o início e o fim do vetor
+Início do vetor: 3 4 6 11 12 
+Fim do vetor: 2032 2036 2041 2042 2043 
+Agora voltei para a tela de seleção
+O que você deseja fazer? 1
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Estou criando um vetor novo
+Novo vetor criado com sucesso!
+Voltei para a tela de seleção
+O que você deseja fazer? 5
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Selection Sort
+Rodei o selection sort
+Comparações: 523776
+Trocas: 1023
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Quick Sort:
+Pivô = Primeiro termo
+Rodei o quick sort com pivô no primeiro elemento
+Comparações: 17526
+Trocas: 2714
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Quick Sort:
+Pivô = Mediano entre 3 aleatórios
+Rodei o quick com pivô mediano entre 3 números aleatórios
+Comparações: 13034
+Trocas: 2865
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Shell Sort:
+Espaçamento = Sequência de Hibbard (k = 2)
+Rodei o shell sort seguindo a sequência de Hibbard
+Comparações: 15171
+Trocas: 6967
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Shell Sort:
+Espaçamento = Sequência de Knuth (k = 3)
+Rodei o shell sort com a sequência de Knuth
+Comparações: 15040
+Trocas: 9439
+Arrumei efetivamente o vetor original para poder exibir ele ordenado
+O que você deseja fazer? 0
+Voltei para o menu incial
+Quantas vezes você quer rodar os algoritmos de busca/ordenação? 2
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Vou rodar as ordenações 1000 vezes
+Iniciei as variáveis de comparação em 0
+Selection Sort:
+Média comparações: 523776.00
+Desvio Padrão: 0.00
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Quick Sort: Pivô = Primeiro Termo
+Média comparações: 14254.94
+Desvio Padrão: 645.48
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Quick Sort: Pivô = Mediano entre 3 aleatórios
+Média comparações: 12816.03
+Desvio Padrão: 324.07
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Shell Sort: Sequência de Hibbard (k = 2)
+Média comparações: 15531.38
+Desvio Padrão: 389.86
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Shell Sort: Sequência de Knuth (k = 3)
+Média comparações: 14660.63
+Desvio Padrão: 457.72
+Exibi os 1000 testes e voltei para  menu inicial
+Quantas vezes você quer rodar os algoritmos de busca/ordenação? 0
+Saindo do programa
+
+
+

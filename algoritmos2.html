@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alg2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="about.html">Sobre mim</a>
+            </li>
+            <li>
+                <a href="projects.html">Projetos Pessoais</a> 
+            </li>
+            <li>
+                <a href="contact.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="centralizado">
+    <h1>Arquivos:</h1>
+        <div>
+            <p>Abrir o c.txt no navegador:</p>
+            <a href="files/trabalho.c.txt" target="_blank">Arquivo principal</a>
+            <p></p>
+            <a href="files/functions.c.txt" target="_blank">Arquivo com as funções</a>
+            <p></p>
+            <a href="files/log.txt" target="_blank">Arquivo de log</a>
+            <p>ou Download do c.txt:</p>
+            <a href="files/trabalho.c.txt" download>Download Arquivo principal</a>
+            <p></p>
+            <a href="files/functions.c.txt" download>Dowload Arquivo com as funções</a>
+            <p></p>
+            <a href="files/log.txt" download>Download Arquivo de log</a>
+        </div>
+    <h1>Relatório:</h1>
+    <div class = "diario">
+            <h2>Diário -</h2>
+            <h3>Dia 02/11: </h3>
+            <p> 
+                Hoje fiz o algoritmo do Quick-Sort, em relação ao void da partição fui copiando do código que professor passou na aula e fui testando, depois fiz uma void para pegar um pivô mediano entre 3 termos aleatórios do vetor, estratégia a qual se mostrou eficaz, e depois colocar na primeira posição e executar a void usual de partição. Além disso, comecei a projetar a main, implementando um pequeno menu de escolhas, com as opções de acordo com os requisitos do projeto.  
+            </p>
+            <h3>Dia 04/11:</h3>
+            <p>
+                Fiz o algoritmo do Selection-Sort, foi simples de fazer seu código uma vez que já o tinha replicado inúmeras vezes .O número de trocas e comparações ficou exatamente como o esperado: 1023 trocas e 523776 comparações num vetor com 1024 elementos. Além disso, coloquei alguns comentários em todo o programa a fim de facilitar a manutenção e possíveis mudanças futuras.
+            </p>
+            <h3>Dia 09/11:</h3>
+            <p>
+                Fiz o algoritmo do Shell Sort, desenvolvendo com a Sequência de Hibbard, a qual usa k = 2 e com a Sequência de Knuth que usa k = 3, para ter uma noção da diferença de comparações entre os dois espaçamentos. Além disso, passei a desenvolver melhor a estrutura de execução do código, utilizei principalmente switch case e goto, tentando ao máximo deixar o código legível. Também desenvolvi duas funções bem importantes para estética da execução no terminal: a função cleansqr que usa um comando de print que achei no Stack Overflow para dar vários espaços, e assim “limpar” o terminal. E a função linha que usar um parâmetro x para printar uma cadeia de “-=-=...” x vezes 
+            </p>
+            <h3>Dia 11/11:</h3>
+            <p>
+                Hoje desenvolvi uma parte do menu para buscar um termo no vetor desorganizado com a busca sequencial, mas falta ainda poder permitir que um termo seja buscado aleatoriamente. Também coloquei para poder exibir os cinco primeiros e últimos termos do vetor usando o void imprime, e para finalizar só adicionei a opção para criar um novo vetor a qualquer momento. Todos esses processos foram fáceis e relativamente rápidos para implementar. 
+            </p>
+            <h3>Dia 14/11:</h3>
+            <p>
+                No dia de hoje comecei a implementar a opção de rodar as ordenações 1000 vezes. Decidi por fazer um loop para cada algoritmo, que nesse caso são 5, pois fica mais fácil de entender ao invés de um só loop. Também implementei uma função para calcular o desvio-padrão, função que possui pequenos detalhes mas que foi relativamente simples de implementar graças a algumas pesquisas.
+            </p>
+            <h3>Dia 15/11:</h3>
+            <p>
+                Aproveitei para terminar a opção das mil ordenações, corrigi pequenos erros de lógica e de estruturação do código e coloquei a busca binária da qual tinha esquecido, para ela, usei o algoritmo do Quick-Sort para poder ordenar o vetor antes e coloquei a opção de sortear um termo do vetor se o valor digitado pelo usuário foi menor que 0, e também contei as comparações de cada algoritmo de pesquisa. Hoje também comecei a inserir os comentários finais do código, o qual está praticamente pronto, além disso aproveitei para passar as funções para um arquivo separado para tentar melhorar a legibilidade do código  
+            </p>
+            <h3>Dia 19/11:</h3>
+            <p>
+                Hoje desenvolvi o meu website, inserindo os dados que fui gerando nos relatórios e colocando também inforamções e conteúdos adicionais, que me ajudaram a chegar no resultado final do trabalho. Também criei um arquivo adicional de log com prints adicionais na execução, mas como o código é estruturado em menus de escolha e o vetor é muito grande para ser exibido termo a termo. Dessa forma, o log não adicionou tantas informações extras quanto eu gostaria.
+            </p>
+            <h2>Detalhes adicionais e resultados -</h2>
+            <p>Compilei o programa principla com: gcc -Wall trabalho.c -o trab -lm</p>
+            <p>
+                Durante a execução do projeto, foquei ao máximo em deixar a interface de execução simples para o usuário, tentando sempre manter o terminal limpo e com opções curtas e diretas. Utilizei 2 switch cases com dois labels em cada um para poder permitir voltar ao menu depois da escolha do usuário, incialmente pergunta se o usuário quer rodar individualmente os casos ou se quer ir direto para as 1000 comparações.
+            </p>
+            <p>
+                Se escolhido 1, vai para o próximo menu que possibilita criar outro vetor, mostrar uma parte do vetor, no caso seus primeiros e últimos 5 termos, pesquisar por busca sequencial, ordenar o vetor e pesquisar um termo por busca binária, e por último, rodar os algoritmos de ordenação e exibir a quantidade de comparações e de trocas. Porém, se escolhido 2, o número médio de comparações e seus devios médios são exibidos após 1000 execuções de cada algoritmo.
+            </p>
+            <p>
+                A parte mais que me deixou dúvidas durante o trabalho era em relação a quando contar as comparações. Para tentar sanar isso fiz buscas em muitos fóruns e em sites. Entretanto, não obtive de maneira clara uma resposta específica para meu código, uma vez que os algoritmos de ordenação, por mais que sejam os mesmos, são implementados de diverssa formas. Porém, executei diversos testes a mão e no PC e os resultados finais condizem com as expectativas acerca de cada algoritmo de ordenação e suas variações, seja de pivô (Quick) ou de espaçamento (Shell).
+            </p>
+            <p>
+                Um detalhe que me chamou a atenção foi que se o vetor estiver já ordenado e executarmos as ordenações; o Selection mantém seus números de comparações e trocas, o que é esperado, no Quick-Sort com pivô no primeiro termo as comparações disparam e passam de 400000 na maioria das vezes, pois o pivô não divide o vetor. Porém, no Quick-Sort "aleatório" os números não ficam tão altos assim, mas são maiores que de ambas as comparações do Shell-Sort, as quais ficam abaixo de 10000. Isso demonstra que o Shell Sort é melhor em um vetor ordenado ou quase ordenado, mas é pior que o Quick-Sort em casos de vetores mais "diversos", como será mostrado abaixo.
+            </p>
+            <p>Dessa forma os resultados médios após a execução em mais de 20000 execuções em vetores aleatórios foram os seguintes:</p>
+            <h3>Selection Sort -</h3>
+            <p>523776 comparações.</p>
+            <p>0 de desvio-padrão.</p>
+            <p>Demonstrou ser simples, porém, também é extremamente lento e ineficaz.</p>
+            <h3>Quick Sort com pivô sendo o primeiro termo -</h3>
+            <p>14253 comparações.</p>
+            <p>637 de desvio-padrão.</p>
+            <p>Bom, mas pode ser melhor com outras escolhas de pivô.</p>
+            <h3>Quick Sort com pivô sendo o intermediário entre 3 aleatórios -</h3>
+            <p>12821 comparações</p>
+            <p>326 de desvio-padrão</p>
+            <p>O melhor dos algoritmos apresentados, simples, com pouco desvio e comparações mais baixas.</p>
+            <h3>Shell Sort com Sequência de Hibbard(k = 2) -</h3>
+            <p>15532 comparações</p>
+            <p>378 de desvio-padrão</p>
+            <p>Não é ruim, mas é como no primeiro quick, um espaçamento melhor poderia diminuir as comparações médias.</p>
+            <h3>Shell Sort com Sequência de Knuth (k = 3) -</h3>
+            <p>14638 comparações</p>
+            <p>455 de desvio-padrão</p>
+            <p>Melhor que o outro shell, porém possui desvio-padrão mais alto e é mais custoso que o melhor quick.</p>
+        </div>
+    <h1>Fontes:</h1>
+        <a href="http://desenvolvendosoftware.com.br/algoritmos/ordenacao/shell-sort.html" target="_blank">http://desenvolvendosoftware.com.br/algoritmos/ordenacao/shell-sort.html</a>
+        <p></p>
+        <a href="https://stackoverflow.com/questions/2347770/how-do-you-clear-the-console-screen-in-c" target="_blank">https://stackoverflow.com/questions/2347770/how-do-you-clear-the-console-screen-in-c</a>
+        <p></p>
+        <a href="https://mundoeducacao.uol.com.br/matematica/desvio-padrao.htm" target="_blank">https://mundoeducacao.uol.com.br/matematica/desvio-padrao.htm</a>
+</body>
+</html>
