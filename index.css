@@ -1,67 +1,49 @@
-body {
-    color: white;
-    background-color: black;
-    font-family:'Courier New', Courier, monospace;
+html, body {
+    height: 100%;
+    margin: 0px;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
 
+body{
+    background-image: url("img/wavy-black-white-background\(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Geist", sans-serif;
 }
+
 
 a{
-    color: white;
-}
-
-.image-cont{
-    position: relative;
-    display: inline-block;
-}
-
-.image-cont img{
-    width: 100%;
-    height: auto;
-}
-
-.texto-img{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:white;
-    font-size: 50px;
-    padding: 10px;
-    text-align: center;
-}
-.centralizado{
-    max-width: 1900px; 
-    margin: 0 auto;   
-    text-align: justify; 
-    padding: 1px;    
-}
-.diario{
-    max-width: 1800px; 
-    margin: 0 auto;   
-    text-align: justify; 
-    padding: 2px;  
-}
-footer img{
-    text-align: center;
-    width: 50px;
-}
-
-footer{
-    background-color: #000733;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-footer a{
-    text-align: center;
-    margin: 35px;
     text-decoration: none;
+    color: black;
+    font-size: 28px;
+    margin: 12px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    margin-top: 95%; /*alterar*/
+}
+
+.titulo p{
+    color: #8A8A8A;    
+    font-weight: 200;
+    font-size: 64px;
+    margin: 0px;
+}
+
+.dark-text{
+    color: black;
+}
+
+.titulo{
+    margin-top: 10%;
+    margin-left: 5%;
 }
