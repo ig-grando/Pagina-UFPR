@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(300deg, #416b9c, #243b55, #000000);
+    background: linear-gradient(300deg, #90CAF9, #0D47A1, #FFF);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
     }
@@ -14,4 +14,32 @@
     100% {
         background-position: 0% 50%;
     }
+}
+
+.bg-header {
+    background-color: #61979F;
+}
+
+.bg-bodyy {
+    background-color: #324D52;
+}
+
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.saber-mais {
+    background-color: #61979F;
+    border-style: none;
+}
+
+.saber-mais:hover {
+    background-color: #6f9ea5;
+    border-style: none;
 }
